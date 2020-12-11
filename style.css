@@ -114,7 +114,7 @@ html{
 .back-side i{
     font-size: 12rem;
     color: #6edae6;
-    box-shadow: 0.1rem 0.1rem 0.2rem #aaa, -0.1rem -0.1rem 0.2rem #aaa;
+    box-shadow: 0.1rem 0.1rem 0.2rem #aaa, -0.1rem -0.1rem -0.2rem #aaa;
     transform: rotateY(180deg);
 }
 

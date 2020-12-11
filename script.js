@@ -41,12 +41,12 @@ document.querySelector(".bottom-z-control").addEventListener("click", () => {
     cube.style.transform = `rotateX(${x}deg) rotateY(${y}deg) rotate(${z += 20}deg)`
 })
 
-document.querySelector(".controls").addEventListener(mouseover, () => {
+document.querySelector(".controls").addEventListener("mouseover", () => {   
     bool = false
     playPause()
 })
 
-document.querySelector(".controls").addEventListener(mouseout, () => {
+document.querySelector(".controls").addEventListener("mouseout", () => {
     bool = true
     playPause()
 })
